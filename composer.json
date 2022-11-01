@@ -1,0 +1,22 @@
+{
+    "name": "peppers/framework",
+    "description": "A basic Web MVC framework",
+    "keywords": ["framework", "peppers", "mvc", "routing", "orm"],
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Peppers\\": ["src/"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Ricardo Sousa",
+            "email": "peppers.php.framework@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1"
+    }
+}
